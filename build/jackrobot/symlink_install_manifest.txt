@@ -1,0 +1,15 @@
+/home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/package_run_dependencies/jackrobot
+/home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/parent_prefix_path/jackrobot
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.sh
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.dsv
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.bash
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.sh
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.zsh
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.dsv
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/package.dsv
+/home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/packages/jackrobot
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig.cmake
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig-version.cmake
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/package.xml
