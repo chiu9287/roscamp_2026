@@ -50,12 +50,12 @@ ros2 topic list
 # 步驟 1：啟動虛擬物理世界後台 (視窗 1)
 
 打開第一個終端機分頁，輸入指令來建立空白的虛擬模擬世界：
-Bash
 
+```bash
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch jackrobot_gazebo start_simulator.launch.xml
-
+```
     ⚠️ 關鍵檢查點：
 
         請等待灰色網格的 Gazebo Sim 視窗完全跳出。
@@ -65,12 +65,12 @@ ros2 launch jackrobot_gazebo start_simulator.launch.xml
 # 步驟 2：身體與大腦一鍵完全體啟動 (視窗 2)
 
 打開第二個全新的終端機分頁，執行流暢時序自動化腳本：
-Bash
 
+```bash
 cd ~/ros2_ws
 source install/setup.bash
 ros2 launch jackrobot_gazebo spawn_robot.launch.py
-
+```
     📊 自動時序流程說明：
     敲下指令後，請靜靜觀察終端機與模擬器畫面：
 
