@@ -1,4 +1,4 @@
-# 🤖 JackRobot ROS 2 機械手臂虛實整合工作空間 (ROS Camp & Lab Project)
+# 🤖 JackRobot ROS 2 機械手臂虛實整合工作空間 (ROS Camp & Lab Project)（至第assignments.pdf 8章節截止）
 
 本專案為 **ROS Camp 培訓與自動化實驗室** 之核心開發成果。主要實現了一套基於 **ROS 2 Jazzy** 環境的 4-DOF 機械手臂（`jackrobot`）虛實整合模擬系統。本專案成功克服了 ROS 2 與新版 Gazebo Sim 在時間軸同步、時序控制（Race Condition）上的經典衝突，採用先進的 **Python Launch 定時器機制** 達成高穩定度的一鍵自動化雙視窗啟動。
 
