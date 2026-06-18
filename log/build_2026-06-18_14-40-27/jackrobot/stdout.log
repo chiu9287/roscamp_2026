@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_auto.launch.xml
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_test.launch.xml
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/myfirst.urdf
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/roboticarm.urdf
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/walle.urdf
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/config/config.rviz
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/package_run_dependencies/jackrobot
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/parent_prefix_path/jackrobot
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.bash
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.sh
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.zsh
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.dsv
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/package.dsv
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/packages/jackrobot
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig-version.cmake
+-- Up-to-date symlink: /home/user/ros2_ws/install/jackrobot/share/jackrobot/package.xml

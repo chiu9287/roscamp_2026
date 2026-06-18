@@ -315,6 +315,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch" "urdf" "config" "DESTINATION" "share/jackrobot")
+ament_cmake_symlink_install_directory("/home/user/ros2_ws/src/jackrobot" DIRECTORY "launch" "urdf" "config" "DESTINATION" "share/jackrobot")
+
 # install(FILES "/home/user/ros2_ws/build/jackrobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/jackrobot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/user/ros2_ws/src/jackrobot" FILES "/home/user/ros2_ws/build/jackrobot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/jackrobot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

@@ -1,3 +1,9 @@
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_auto.launch.xml
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_test.launch.xml
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/myfirst.urdf
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/roboticarm.urdf
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/walle.urdf
+/home/user/ros2_ws/install/jackrobot/share/jackrobot/config/config.rviz
 /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/package_run_dependencies/jackrobot
 /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/parent_prefix_path/jackrobot
 /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.sh

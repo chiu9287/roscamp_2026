@@ -1,0 +1,17 @@
+[2.435s] Invoking command in '/home/user/ros2_ws/build/jackrobot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/jackrobot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/jackrobot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/jackrobot_control/build --no-deps symlink_data
+[3.580s] running develop
+[4.185s] running egg_info
+[4.233s] writing jackrobot_control.egg-info/PKG-INFO
+[4.233s] writing dependency_links to jackrobot_control.egg-info/dependency_links.txt
+[4.234s] writing entry points to jackrobot_control.egg-info/entry_points.txt
+[4.234s] writing requirements to jackrobot_control.egg-info/requires.txt
+[4.234s] writing top-level names to jackrobot_control.egg-info/top_level.txt
+[4.332s] reading manifest file 'jackrobot_control.egg-info/SOURCES.txt'
+[4.335s] writing manifest file 'jackrobot_control.egg-info/SOURCES.txt'
+[4.388s] running build_ext
+[4.388s] Creating /home/user/ros2_ws/install/jackrobot_control/lib/python3.12/site-packages/jackrobot-control.egg-link (link to .)
+[4.388s] Installing trajectory_publisher script to /home/user/ros2_ws/install/jackrobot_control/lib/jackrobot_control
+[4.389s] 
+[4.389s] Installed /home/user/ros2_ws/build/jackrobot_control
+[4.390s] running symlink_data
+[4.452s] Invoked command in '/home/user/ros2_ws/build/jackrobot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/jackrobot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/jackrobot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/ros2_ws/build/jackrobot_control/build --no-deps symlink_data

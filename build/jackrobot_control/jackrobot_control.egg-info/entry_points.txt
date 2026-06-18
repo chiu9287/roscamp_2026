@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_publisher = jackrobot_control.trajectory_publisher:main

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+jackrobot_control/__init__.py
+jackrobot_control/trajectory_publisher.py
+jackrobot_control.egg-info/PKG-INFO
+jackrobot_control.egg-info/SOURCES.txt
+jackrobot_control.egg-info/dependency_links.txt
+jackrobot_control.egg-info/entry_points.txt
+jackrobot_control.egg-info/requires.txt
+jackrobot_control.egg-info/top_level.txt
+jackrobot_control.egg-info/zip-safe
+resource/jackrobot_control

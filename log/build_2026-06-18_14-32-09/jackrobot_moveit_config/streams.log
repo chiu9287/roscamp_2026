@@ -1,0 +1,61 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/jackrobot_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/jackrobot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/jackrobot_moveit_config
+[0.100s] -- The C compiler identification is GNU 13.3.0
+[0.210s] -- The CXX compiler identification is GNU 13.3.0
+[0.253s] -- Detecting C compiler ABI info
+[0.472s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.502s] -- Detecting C compile features - done
+[0.533s] -- Detecting CXX compiler ABI info
+[0.723s] -- Detecting CXX compiler ABI info - done
+[0.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.747s] -- Detecting CXX compile features
+[0.748s] -- Detecting CXX compile features - done
+[0.755s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.038s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.309s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.724s] -- Configuring done (1.7s)
+[1.731s] -- Generating done (0.0s)
+[1.736s] -- Build files have been written to: /home/user/ros2_ws/build/jackrobot_moveit_config
+[1.750s] Invoked command in '/home/user/ros2_ws/build/jackrobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/jackrobot_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/jackrobot_moveit_config
+[1.751s] Invoking command in '/home/user/ros2_ws/build/jackrobot_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/jackrobot_moveit_config -- -j4 -l4
+[1.859s] Invoked command in '/home/user/ros2_ws/build/jackrobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/jackrobot_moveit_config -- -j4 -l4
+[1.861s] Invoking command in '/home/user/ros2_ws/build/jackrobot_moveit_config': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/jackrobot_moveit_config
+[1.885s] -- Install configuration: ""
+[1.887s] -- Execute custom install script
+[1.888s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/jackrobot_moveit_config
+[1.915s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/jackrobot_moveit_config
+[1.947s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/environment/ament_prefix_path.sh
+[1.965s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/environment/ament_prefix_path.dsv
+[1.987s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/environment/path.sh
+[2.021s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/environment/path.dsv
+[2.045s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/local_setup.bash
+[2.056s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/local_setup.sh
+[2.070s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/local_setup.zsh
+[2.088s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/local_setup.dsv
+[2.118s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/package.dsv
+[2.149s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/ament_index/resource_index/packages/jackrobot_moveit_config
+[2.194s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/cmake/jackrobot_moveit_configConfig.cmake
+[2.216s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/cmake/jackrobot_moveit_configConfig-version.cmake
+[2.229s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/package.xml
+[2.243s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/demo.launch.py
+[2.255s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/move_group.launch.py
+[2.269s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/moveit_rviz.launch.py
+[2.282s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/rsp.launch.py
+[2.297s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/setup_assistant.launch.py
+[2.311s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/spawn_controllers.launch.py
+[2.323s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[2.338s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/launch/warehouse_db.launch.py
+[2.352s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/arm_manipulator.ros2_control.xacro
+[2.364s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/arm_manipulator.srdf
+[2.382s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/arm_manipulator.urdf.xacro
+[2.393s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/final_jackrobot.urdf
+[2.406s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/initial_positions.yaml
+[2.425s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/joint_limits.yaml
+[2.440s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/kinematics.yaml
+[2.458s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/moveit.rviz
+[2.474s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/moveit_controllers.yaml
+[2.501s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/pilz_cartesian_limits.yaml
+[2.529s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/config/ros2_controllers.yaml
+[2.560s] -- Symlinking: /home/user/ros2_ws/install/jackrobot_moveit_config/share/jackrobot_moveit_config/.setup_assistant
+[2.602s] Invoked command in '/home/user/ros2_ws/build/jackrobot_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/jackrobot:/home/user/ros2_ws/install/jackrobot_moveit_config:/home/user/ros2_ws/install/jackrobot_gazebo:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/user/ros2_ws/install/jackrobot_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/jackrobot_moveit_config

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/src/jackrobot_moveit_config/launch/spawn_controllers.launch.py

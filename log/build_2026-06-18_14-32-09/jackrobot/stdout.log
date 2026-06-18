@@ -1,0 +1,44 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/user/ros2_ws/build/jackrobot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_auto.launch.xml
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/launch/jackrobot_test.launch.xml
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/myfirst.urdf
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/roboticarm.urdf
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/urdf/walle.urdf
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/config/config.rviz
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/package_run_dependencies/jackrobot
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/parent_prefix_path/jackrobot
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.sh
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/environment/path.dsv
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.bash
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.sh
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.zsh
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/local_setup.dsv
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/package.dsv
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/ament_index/resource_index/packages/jackrobot
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig.cmake
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/cmake/jackrobotConfig-version.cmake
+-- Symlinking: /home/user/ros2_ws/install/jackrobot/share/jackrobot/package.xml

@@ -1,0 +1,27 @@
+# 宣告我們要使用的控制器管理外掛
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+# 定義 MoveIt 核心要連線的控制器清單
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  # 手臂控制器的詳細動作（Action）對接
+  arm_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - arm_0_joint
+      - arm_1_joint
+      - arm_2_joint
+
+  # 夾爪控制器的詳細動作（Action）對接
+  gripper_controller:
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - gripper_1_joint
+      - gripper_2_joint

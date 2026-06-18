@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<robot name="walle">
+
+  <material name="wall_e_yellow">
+    <color rgba="0.9 0.6 0.1 1.0"/>
+  </material>
+  <material name="dark_grey">
+    <color rgba="0.2 0.2 0.2 1.0"/>
+  </material>
+  <material name="light_grey">
+    <color rgba="0.6 0.6 0.6 1.0"/>
+  </material>
+  <material name="lens_black">
+    <color rgba="0.05 0.05 0.05 1.0"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.6" radius="0.2"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_to_body_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="body_link"/>
+    <origin xyz="0 0 0.25" rpy="0 0 0"/>
+  </joint>
+
+  <link name="body_link">
+    <visual>
+      <geometry>
+        <box size="0.4 0.4 0.4"/>
+      </geometry>
+      <material name="wall_e_yellow"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_left_track_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="left_track_link"/>
+    <origin xyz="0 0.23 -0.05" rpy="0 0 0"/>
+  </joint>
+  <link name="left_track_link">
+    <visual>
+      <geometry>
+        <box size="0.45 0.06 0.25"/>
+      </geometry>
+      <material name="dark_grey"/>
+    </visual>
+  </link>
+
+  <joint name="body_to_right_track_joint" type="fixed">
+    <parent link="body_link"/>
+    <child link="right_track_link"/>
+    <origin xyz="0 -0.23 -0.05" rpy="0 0 0"/>
+  </joint>
+  <link name="right_track_link">
+    <visual>
+      <geometry>
+        <box size="0.45 0.06 0.25"/>
+      </geometry>
+      <material name="dark_grey"/>
+    </visual>
+  </link>
+
+  <joint name="neck_joint" type="revolute">
+    <parent link="body_link"/>
+    <child link="neck_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.5" upper="0.5" effort="10.0" velocity="1.0"/>
+  </joint>
+  <link name="neck_link">
+    <visual>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.03" length="0.2"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="head_joint" type="revolute">
+    <parent link="neck_link"/>
+    <child link="head_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+  <link name="head_link">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.24 0.08"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="head_to_left_eye" type="fixed">
+    <parent link="head_link"/>
+    <child link="left_eye_link"/>
+    <origin xyz="0.04 0.06 0.05" rpy="0 1.5708 0"/>
+  </joint>
+  <link name="left_eye_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.02"/>
+      </geometry>
+      <material name="lens_black"/>
+    </visual>
+  </link>
+
+  <joint name="head_to_right_eye" type="fixed">
+    <parent link="head_link"/>
+    <child link="right_eye_link"/>
+    <origin xyz="0.04 -0.06 0.05" rpy="0 1.5708 0"/>
+  </joint>
+  <link name="right_eye_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.04" length="0.02"/>
+      </geometry>
+      <material name="lens_black"/>
+    </visual>
+  </link>
+
+  <joint name="left_shoulder_joint" type="revolute">
+    <parent link="body_link"/>
+    <child link="left_arm_link"/>
+    <origin xyz="0 0.21 0.1" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+  <link name="left_arm_link">
+    <visual>
+      <origin xyz="0.1 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.2"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="left_hand_joint" type="fixed">
+    <parent link="left_arm_link"/>
+    <child link="left_hand_link"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="left_hand_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.06 0.02"/>
+      </geometry>
+      <material name="dark_grey"/>
+    </visual>
+  </joint>
+
+  <joint name="left_gripper_finger1_joint" type="prismatic">
+    <parent link="left_hand_link"/>
+    <child link="left_finger1_link"/>
+    <origin xyz="0.02 0 0.01" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="0.03" effort="5.0" velocity="0.1"/>
+  </joint>
+  <link name="left_finger1_link">
+    <visual>
+      <origin xyz="0.02 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.01 0.01"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="left_gripper_finger2_joint" type="prismatic">
+    <parent link="left_hand_link"/>
+    <child link="left_finger2_link"/>
+    <origin xyz="0.02 0 -0.01" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+    <limit lower="0.0" upper="0.03" effort="5.0" velocity="0.1"/>
+  </joint>
+  <link name="left_finger2_link">
+    <visual>
+      <origin xyz="0.02 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.01 0.01"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="right_shoulder_joint" type="revolute">
+    <parent link="body_link"/>
+    <child link="right_arm_link"/>
+    <origin xyz="0 -0.21 0.1" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="10.0" velocity="1.0"/>
+  </joint>
+  <link name="right_arm_link">
+    <visual>
+      <origin xyz="0.1 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.2"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="right_hand_joint" type="fixed">
+    <parent link="right_arm_link"/>
+    <child link="right_hand_link"/>
+    <origin xyz="0.2 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="right_hand_link">
+    <visual>
+      <geometry>
+        <box size="0.02 0.06 0.02"/>
+      </geometry>
+      <material name="dark_grey"/>
+    </visual>
+  </joint>
+
+  <joint name="right_gripper_finger1_joint" type="prismatic">
+    <parent link="right_hand_link"/>
+    <child link="right_finger1_link"/>
+    <origin xyz="0.02 0 0.01" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="0.03" effort="5.0" velocity="0.1"/>
+  </joint>
+  <link name="right_finger1_link">
+    <visual>
+      <origin xyz="0.02 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.01 0.01"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+  <joint name="right_gripper_finger2_joint" type="prismatic">
+    <parent link="right_hand_link"/>
+    <child link="right_finger2_link"/>
+    <origin xyz="0.02 0 -0.01" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+    <limit lower="0.0" upper="0.03" effort="5.0" velocity="0.1"/>
+  </joint>
+  <link name="right_finger2_link">
+    <visual>
+      <origin xyz="0.02 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.01 0.01"/>
+      </geometry>
+      <material name="light_grey"/>
+    </visual>
+  </link>
+
+</robot>

@@ -1,0 +1,9 @@
+source;share/jackrobot_control/hook/pythonpath.ps1
+source;share/jackrobot_control/hook/pythonpath.dsv
+source;share/jackrobot_control/hook/pythonpath.sh
+source;share/jackrobot_control/hook/ament_prefix_path.ps1
+source;share/jackrobot_control/hook/ament_prefix_path.dsv
+source;share/jackrobot_control/hook/ament_prefix_path.sh
+source;../../build/jackrobot_control/share/jackrobot_control/hook/pythonpath_develop.ps1
+source;../../build/jackrobot_control/share/jackrobot_control/hook/pythonpath_develop.dsv
+source;../../build/jackrobot_control/share/jackrobot_control/hook/pythonpath_develop.sh

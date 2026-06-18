@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing jackrobot_control.egg-info/PKG-INFO
+writing dependency_links to jackrobot_control.egg-info/dependency_links.txt
+writing entry points to jackrobot_control.egg-info/entry_points.txt
+writing requirements to jackrobot_control.egg-info/requires.txt
+writing top-level names to jackrobot_control.egg-info/top_level.txt
+reading manifest file 'jackrobot_control.egg-info/SOURCES.txt'
+writing manifest file 'jackrobot_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user/ros2_ws/install/jackrobot_control/lib/python3.12/site-packages/jackrobot-control.egg-link (link to .)
+Installing trajectory_publisher script to /home/user/ros2_ws/install/jackrobot_control/lib/jackrobot_control
+
+Installed /home/user/ros2_ws/build/jackrobot_control
+running symlink_data

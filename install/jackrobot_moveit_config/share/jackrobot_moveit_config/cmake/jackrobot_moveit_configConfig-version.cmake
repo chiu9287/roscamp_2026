@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/jackrobot_moveit_config/ament_cmake_core/jackrobot_moveit_configConfig-version.cmake
